@@ -50,3 +50,4 @@ Message your bot and test in Uzbek, Russian and English.
 - Conversation state is in-memory (24h TTL, 30 msgs per chat). For multi-instance/restart safety, swap `src/state.js` for Redis/SQLite.
 - If Sheets fails, the manager still gets the alert plus a raw-JSON fallback message, so no lead vanishes.
 - To use Claude Haiku instead, replace `src/llm.js` `complete()` with `@anthropic-ai/sdk` `messages.create` (system prompt goes in the `system` param).
+"# tg-intake-analyzer" 
